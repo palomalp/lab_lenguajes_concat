@@ -5,12 +5,12 @@
 const animals = ["snail", "turtle", "camel"];
 const colours = ["brown", "gree", "pink"];
 
+const concat = (array1, array2) => {
+    return [...array1] + "," + [...array2]
+}
 
-const ejemplo = [...animals];
+console.log (concat(animals, colours));
 
-// const concat = (array1, array2) => {
-//     return [...array1] + [...array2]
-// }
 
-console.log ();
 
+//Implementa una versión del ejercicio anterior donde se acepten múltiples arrays de entrada (más de 2).
